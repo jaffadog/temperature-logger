@@ -101,7 +101,7 @@ function initOneChart(name) {
 }
 
 function updateAllCharts() {
-    var endTime = Date.now();
+    endTime = Date.now();
     
     chartNames.forEach(function (name) {
         updateOneChart(name);
